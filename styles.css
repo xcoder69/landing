@@ -102,4 +102,68 @@ a{
 /* section two ends here*/
 
 /* section three starts here*/
+.section-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+    align-items: center;
+}
+.quote{
+    color: #1F2937;
+    width: 800px;
+    font-size: 36px;
+    font-weight:300;
+    font-style: italic;
+}
+.byline{
+    font-weight: bolder;
+    margin-left: 600px;
+}
+
+/* section three ends here*/
+
+/* section four and footer starts here*/
+
+.section-4{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.bluebox{
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 20px 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.foot-button{
+    margin-left: 250px;
+    border: #E5E7EB 2px solid;
+    border-radius: 8px;
+}
+.mtp{
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+.nmpt{
+    color: #F9FAF8;
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px;
+    color: #E5E7EB;
+}
+
 
