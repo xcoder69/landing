@@ -42,6 +42,14 @@ body{
     padding-top: 10px;
     padding-bottom: 20px;
 }
+.button-link{
+    background-color: #3882F6;
+    color: white;
+    font-weight: 800;
+    padding: 5px 24px;
+    border-radius: 5px;
+    border-width: 0;
+}
 button{
     background-color: #3882F6;
     color: white;
@@ -117,6 +125,7 @@ a{
     font-style: italic;
 }
 .byline{
+    font-size: 20px;
     font-weight: bolder;
     margin-left: 600px;
 }
@@ -159,11 +168,38 @@ a{
 
 footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
     padding: 50px;
     color: #E5E7EB;
 }
+/* sectional styling done*/
 
-
+.github{
+    width: 50px;
+    border: 2px white solid;
+    border-radius: 8px;
+    background-color: white;
+}
+.gmail{
+    height: 50px;
+    border: 2px white solid;
+    border-radius: 8px;
+    background-color: white;
+}
+.link-1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.link-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.squigly-link{
+    text-decoration: underline;
+}
